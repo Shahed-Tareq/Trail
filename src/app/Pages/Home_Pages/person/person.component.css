@@ -1,0 +1,17 @@
+img{
+    width: 100%;
+    
+    object-fit: cover;
+}
+.person{
+    margin-top: 50px;
+    padding: 20px;
+}
+.details{
+    padding: 35px;
+}
+p{
+    text-align: justify;
+    font-size: 17px;
+    margin-bottom: 15px;
+}

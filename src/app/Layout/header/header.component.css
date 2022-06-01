@@ -1,0 +1,25 @@
+.container{
+    padding: 15px;
+    text-transform: uppercase;
+}
+.container a{
+    color: black;
+
+}
+nav{
+    position: fixed;
+    top:0px ;
+    right:0px;
+    left:0px;
+    z-index: 555;
+    background-color: white;
+}
+.navScroll{
+    position: fixed;
+    top:0px ;
+    right:0px;
+    left:0px;
+    z-index: 555;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

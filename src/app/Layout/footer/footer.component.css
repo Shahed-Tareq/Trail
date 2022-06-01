@@ -1,0 +1,15 @@
+.cont{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.685);
+}

@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-light " [class.navScroll]="variable" data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="500">
+    <div class="container">
+ <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto" >
+        <li class="nav-item" *ngFor="let item of Header|keyvalue:onCompare" routerLinkActive="active"  [routerLinkActiveOptions]="{exact:true}">
+          <a class="nav-link" routerLink="{{item.value}}"  >{{item.key}} </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
