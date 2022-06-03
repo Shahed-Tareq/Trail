@@ -14,7 +14,7 @@ export class HomePageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  pathImage1:string="../../../../assets/images/Home_1.jpg"
-  pathImage2:string="../../../../assets/images/home.jpg"
+  pathImage1:string="assets/images/Home_1.jpg"
+  pathImage2:string="assets/images/home.jpg"
 
 }
